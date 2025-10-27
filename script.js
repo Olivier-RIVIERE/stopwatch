@@ -44,6 +44,8 @@ start.addEventListener("click", startTimer);
 pause.addEventListener("click", pauseTimer);
 reset.addEventListener("click", resetTimer);
 
+display.textContent = formatTime(0);
+
 /* console.log(formatTime(0));
 console.log(formatTime(120));
 console.log(formatTime(3661)); */
